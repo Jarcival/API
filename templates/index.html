@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA APOD</title>
+    <link rel="stylesheet" href="/static/style.css"> <!-- Ruta corregida -->
+</head>
+<body>
+    <div class="search">
+        <h1>A Cool Space Picture</h1>
+        <input type="text" id="dateSearch" placeholder="Enter a date...">
+        <button id="submit" onclick="call()">Search (GET)</button>
+        <button id="postButton" onclick="sendPost()">Send POST</button>
+        <p id="description"></p>
+        <img id="spacePic" src="" alt="">
+    </div>
+    <script src="/script.js"></script> <!-- Ruta corregida -->
+</body>
+</html>
